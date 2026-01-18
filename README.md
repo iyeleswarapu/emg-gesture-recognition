@@ -22,14 +22,18 @@ Data organization
 
 Installation:
 Clone the repository
+```python
 git clone https://github.com/YOUR_USERNAME/emg-gesture-recognition.git
 cd emg-gesture-recognition
+```
 
 Usage:
 Place your .mat NinaPro EMG data files in a local folder.
 Update the paths variable in emg_gesture_recognition.py with the file paths to your .mat files.
 Run the script.
+```python
 python3 emg_gesture_recognition.py
+```
 
 The script will train a CNN-LSTM model and print
 - Training loss per epoch
