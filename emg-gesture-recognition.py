@@ -122,7 +122,7 @@ def train_model(model, train_loader, test_loader, epochs=10):
 
 if __name__ == "__main__":
     paths = [
-        "/Users/ishayeleswarapu/Documents/Neurotech/DB2_s1/S1_E1_A1.mat"
+        "data/S1_E1_A1.mat"
     ]
 
     try:
